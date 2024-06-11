@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>The Daily notes</title>
+      <link>https://note.mahoo12138.cn</link>
+      <description>最近的10条笔记 on The Daily notes</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>index</title>
+    <link>https://note.mahoo12138.cn/</link>
+    <guid>https://note.mahoo12138.cn/</guid>
+    <description>Today-I-Learned 📝 Today I Learned - A list of all things I learn on daily basis.</description>
+    <pubDate>Tue, 11 Jun 2024 15:17:04 GMT</pubDate>
+  </item><item>
+    <title>2</title>
+    <link>https://note.mahoo12138.cn/front-end/babel/toolchain/2</link>
+    <guid>https://note.mahoo12138.cn/front-end/babel/toolchain/2</guid>
+    <description>带你玩转 babel 工具链（二）@babel/traverse 一、前言 本文将继续学习另一个babel非常核心的库@babel/traverse。 目前大多数的 babel 插件都是基于这个库，做了很多代码转换，所以本文将通过手写一个@babel/traverse来了解其原理。 下面我们先看一个简单的示例，了解下如何使用。 ...</description>
+    <pubDate>Mon, 10 Jun 2024 23:49:49 GMT</pubDate>
+  </item><item>
+    <title>1</title>
+    <link>https://note.mahoo12138.cn/front-end/babel/toolchain/1</link>
+    <guid>https://note.mahoo12138.cn/front-end/babel/toolchain/1</guid>
+    <description>带你玩转 babel 工具链（一）@babel/parser 一、前言 @babel/parser作为 babel 最核心的库，是我们学习 babel 最重要的一部分，对于后面插件的学习都很有帮助。本文将通过各种示例，帮大家理解 babel-loader 在 babel 工具链中的作用。 二、基础示例 首先我们先学习下如何使用@babel/parser，下面是一个简单用法： ...</description>
+    <pubDate>Mon, 10 Jun 2024 23:19:35 GMT</pubDate>
+  </item><item>
+    <title>copy</title>
+    <link>https://note.mahoo12138.cn/front-end/javascript/review/copy</link>
+    <guid>https://note.mahoo12138.cn/front-end/javascript/review/copy</guid>
+    <description>浅拷贝、深拷贝 浅拷贝的几种实现 Object.assign()会拷贝原始对象中的所有属性到一个新对象上，如果属性为对象，则拷贝的是对象的地址，改变对象中的属性值，新拷贝出来的对象依然会受影响。 使用ES6的 ...扩展运算符。 深拷贝几种实现.</description>
+    <pubDate>Fri, 07 Jun 2024 00:04:17 GMT</pubDate>
+  </item><item>
+    <title>extend</title>
+    <link>https://note.mahoo12138.cn/front-end/javascript/review/extend</link>
+    <guid>https://note.mahoo12138.cn/front-end/javascript/review/extend</guid>
+    <description>继承 在JavaScriptES6之前，实现继承需要依赖原型、原型链和构造函数等等技术手段组合使用，在ES6之后，可以使用Class类继承(并没有真正的类，只是一个语法糖，实质依然是函数)。 继承的几种方式： 原型链实现继承 借用构造函数实现继承 组合继承 寄生组合继承 ES6 Class 继承 原型链实现继承 通过重写子类的原型，并将它指向父类的手段实现。这种方式实现的继承，创建出来的实例既是子类的实例，又是父类的实例。它有如下几种缺陷： ...</description>
+    <pubDate>Fri, 07 Jun 2024 00:03:55 GMT</pubDate>
+  </item><item>
+    <title>type</title>
+    <link>https://note.mahoo12138.cn/front-end/javascript/review/type</link>
+    <guid>https://note.mahoo12138.cn/front-end/javascript/review/type</guid>
+    <description>类型 原始类型 JavaScript 中原始类型有六种，原始类型既只保存原始值，是没有函数可以调用的。 六种原始类型：string，number，boolean，null，undefined，symbol； 为什么说原始类型没有函数可以调用，但&#039;1&#039;.toString()却又可以在浏览器中正确执行？ ...</description>
+    <pubDate>Thu, 06 Jun 2024 12:38:17 GMT</pubDate>
+  </item><item>
+    <title>hot code</title>
+    <link>https://note.mahoo12138.cn/cant/hot-code</link>
+    <guid>https://note.mahoo12138.cn/cant/hot-code</guid>
+    <description>Hot code (or hot code path) are execution paths in your application / compiler in which most of the execution time is spent, and thus which are potentially executed very often ...</description>
+    <pubDate>Tue, 04 Jun 2024 14:12:56 GMT</pubDate>
+  </item><item>
+    <title>理解 Map 内部实现</title>
+    <link>https://note.mahoo12138.cn/front-end/reading/04-%E5%85%B3%E4%BA%8E-V8-%E4%B8%AD-Map-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9A%84%E5%AE%9E%E7%8E%B0</link>
+    <guid>https://note.mahoo12138.cn/front-end/reading/04-%E5%85%B3%E4%BA%8E-V8-%E4%B8%AD-Map-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9A%84%E5%AE%9E%E7%8E%B0</guid>
+    <description>Understanding Map Internals 理解 Map 内部实现 前言 With this blog post, I am starting V8 Deep Dives series dedicated to my experiments and findings in V8, which is, no doubt, a well-engineered ...</description>
+    <pubDate>Tue, 04 Jun 2024 00:47:34 GMT</pubDate>
+  </item><item>
+    <title>1</title>
+    <link>https://note.mahoo12138.cn/front-end/interview/tencent/1</link>
+    <guid>https://note.mahoo12138.cn/front-end/interview/tencent/1</guid>
+    <description>js 如何控制一次只加载一张图片，加载完成后再加载下一张 const imgArrs = [...]; // 图片地址 const content = document.getElementById(&#039;content&#039;); function loadImg(){ if(imgArrs.length === 0) ...</description>
+    <pubDate>Mon, 03 Jun 2024 13:43:21 GMT</pubDate>
+  </item><item>
+    <title>js-21-30</title>
+    <link>https://note.mahoo12138.cn/front-end/interview/big-front-end/js-21-30</link>
+    <guid>https://note.mahoo12138.cn/front-end/interview/big-front-end/js-21-30</guid>
+    <description>21. Array I const a = [0] console.log(a.length) // 1 Since array contains one element a[3] = 3 // a = [0, empty, empty, 3] console.log(a.length) // 4 Since array contains four elements now(even though only 2 elements are defined) for (let item of a) { console.log(item) // prints all the array items } // 0 // undefined // undefined // 3 a.map(item =&gt; {console.log(item)}) // only called for assigned values // 0 // 3 a.forEach(item =&gt; {console.log(item)}) // only called for assigned values // 0 // 3 console.log(Object.keys(a)) // [&quot;0&quot;,&quot;3&quot;] only defined indexes are retuned delete a[3] // deletes/unassigns that index // a = [0, empty, empty, empty] console.log(a.length) // 4 since length remains unaffected a[2] = 2 // a = [0, empty, 2, empty] a.length = 1 // this actually truncates the array so that length is only 1 now // a = [0] console.log(a[0],a[1],a[2]) // 0,undefined,undefined 可通过设置 length 属性随时截断数组。需要注意的是，length 属性并不一定表示数组中定义的值的数量； Array.map() ，Array.forEach() 以及 Object.keys 都只对已赋值的索引（包括值为 undefined 的索引）进行调用和操作。 使用 delete 删除数组元素只会取消该索引的值（使其变为空），而不会重新排列数组或改变 length 属性。 22.</description>
+    <pubDate>Sat, 01 Jun 2024 08:51:10 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
